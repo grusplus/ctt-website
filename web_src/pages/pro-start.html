@@ -1,0 +1,65 @@
+<section class="text-center space--md bg--dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8">
+                <h2>Get Started With Grapefruit Pro</h2>
+                <p class="lead">Enjoy your 50% lifetime discount by signing up now. All plans are billed monthly with no commitment required and easy upgrades / downgrades.
+                    <br>30-day money back guarantee.</p>
+                <a href="#options"><i class="i color--primary">south</i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="text-center" id="options">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pricing pricing-1 boxed boxed--border boxed--lg">
+                    <h4>Small</h4>
+                    <span class="h4 old-price"><del><span class="pricing__dollar">$</span>79</del></span>
+                    <span class="h1"><span class="pricing__dollar">$</span>39</span>
+                    <small>USD, monthly</small>
+                    <p><strong>Up to 15 clients</strong> <br>50% lifetime discount</p>
+                    <a class="btn btn--primary-1" onclick="selectPlan('39')"> <span class="btn__text">
+                            Select
+                        </span> </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing pricing-1 boxed boxed--border boxed--lg boxed--emphasis">
+                    <h4>Standard</h4>
+                    <span class="h4 old-price"><del><span class="pricing__dollar">$</span>159</del></span>
+                    <span class="h1"><span class="pricing__dollar">$</span>79</span>
+                    <small>USD, monthly</small>
+                    <p><strong>Up to 40 clients</strong> <br>50% lifetime discount</p>
+                    <a class="btn btn--primary" onclick="selectPlan('79')"> <span class="btn__text">
+                            Select
+                        </span> </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing pricing-1 boxed boxed--border boxed--lg">
+                    <h4>Large</h4>
+                    <span class="h4 old-price"><del><span class="pricing__dollar">$</span>299</del></span>
+                    <span class="h1"><span class="pricing__dollar">$</span>149</span>
+                    <small>USD, monthly</small>
+                    <p><strong>Up to 100 clients</strong> <br>50% lifetime discount</p>
+                    <a class="btn btn--primary-1" onclick="selectPlan('149')"> <span class="btn__text">
+                            Select
+                        </span> </a>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <br><br>
+            <p>Looking for bigger plans, or plans for multiple therapists/counselors? <a href="mailto:hi@haveagrapefruit.com">Contact us.</a></p>
+        </div>
+    </div>
+</section>
+<script>
+    let selectPlan = (plan) => {
+        let prourl = window.location.hostname.endsWith(".local") ? "http://192.168.50.14:9005" : "https://pro.haveagrapefruit.com"
+        window.location = prourl + "/signup.html#plan" + plan
+    };
+</script>

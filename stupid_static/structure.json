@@ -1,0 +1,56 @@
+{
+    "404.html": {
+        "title": "Card To Table | No code websites with Trello and Netlify | Page Not Found"
+    },
+    "index.html": {
+        "title": "Card To Table | No code websites with Trello and Netlify"
+    },
+    "support.html": {
+        "title": "Help And Support"
+    },
+    "about.html": {
+        "title": "About | Grapefruit | Journal And Mood Tracker For Mac, iOS, Window and Android"
+    },
+    "press.html": {
+        "title": "Press Kit | Grapefruit | Journal And Mood Tracker For Mac, iOS, Window and Android"
+    },
+    "terms.html": {
+        "title": "Terms and Privacy"
+    },
+    "pro": {
+        "index.html": {
+            "title": "Grapefruit | Journal And Mood Tracker | Therapists And Counselors",
+            "theme": "dark"
+        },
+        "start.html": {
+            "title": "Grapefruit Pro | Pricing | Mental Health App For Therapists And Counselors",
+            "theme": "dark"
+        }
+    },
+    "grapefruit": {
+        "guide.html": {
+            "title": "Grapefruit Guide"
+        }
+    },
+    "count-your-money": {
+        "index.html": {
+            "title": "Count Your Money"
+        },
+        "guide.html": {
+            "title": "Count Your Money Guide"
+        }
+    },
+    "cow-words": {
+        "index.html": {
+            "title": "Cow Words"
+        },
+        "guide.html": {
+            "title": "Cow Words Guide"
+        }
+    },
+    "cloud": {
+        "index.html": {
+            "title": "Sink? Cloud? Rain? Yes."
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "web_src"
+		},
+		{
+			"path": "stupid_static"
+		},
+		{
+			"path": "../_stack_framework2"
+		}
+	]
+}

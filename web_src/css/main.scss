@@ -1,0 +1,20 @@
+
+$stark-white:#fff;
+$white:#f3f3ff;
+$black:#293651;
+$darker-black:#212529;
+$gray-text:#646F87;
+$default-gray:#646F87;
+$color-primary: #fb4036;
+$color-secondary: #6067d2;
+$color-accent-1: #6067d2;
+$color-accent-2: #b4b7ea;
+$color-accent-1-very-light: #ebeef399;
+$color-accent-1-barely-exists: #ebeef34e;
+
+@import 'stack-interface.scss';
+//@import 'iconsmind.scss';
+@import 'bootstrap.scss';
+@import 'theme-red.scss';
+@import 'flickity.scss';
+@import 'custom.scss';

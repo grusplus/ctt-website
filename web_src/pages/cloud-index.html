@@ -1,0 +1,169 @@
+<div id="cloud">
+<!-- <section class="text-center cta cta-4 space--md border--bottom bg--primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"> <span class="label label--inline">Beta Alert</span> <span>Cloud syncing is still in beta. Using the beta means you're okay if, say, your <a href="/terms.html">data ends up on the moon.</a></div>
+        </div>
+    </div>
+</section> -->
+
+<section class="text-center space--sm border--bottom">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-12">
+                <h2>Manage Account</h2>
+                <p class="lead">You only need an account if you want to use the sync feature. <br>You can remove your account and data any time from this page.</p>
+                <p>If you received an invite from your therapist/counselor/coach,<br> follow the instructions in the email to set up your account.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="tabs-container" data-content-align="left">
+        <ul class="tabs tabs--spaced">
+            <li class="active">
+                <div class="tab__title text-center">
+                    <span class="h5">Create Account</span>
+                </div>
+                <div class="tab__content">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-md-6 offset-md-3">
+                                <div class="switchable__text">
+                                    <form data-endpoint="register">
+                                        <div class="row">
+                                            <div class="col-12"> <input type="email" name="email" class="email" placeholder="Email Address" required="required"> </div>
+                                            <div class="col-12"> <input type="password" class="pw" name="password" placeholder="Password" required="required"> </div>
+                                            <div class="col-12"> <input type="password" class="pw2" name="password_confirmation" placeholder="Password Again"> </div>
+                                            <div class="col-12">
+                                                <label>Can we send you email?</label>
+                                                <select name="email_ok">
+                                                    <option value="11">Yes, important account emails + mailing list</option>
+                                                    <option value="10" selected="true">Yes, important account emails only, no mailing list</option>
+                                                    <option value="20">No, never send me any email, ever</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12">
+                                                <label>Automatically delete all of your data if you stop syncing it, after:</label>
+                                                <select name="delete_after">
+                                                    <option value="20">6 months</option>
+                                                    <option value="12" selected="true">12 months</option>
+                                                    <option value="24">24 months</option>
+                                                    <option value="0">Never</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12"> <button type="submit" class="btn btn--primary">Send Verification Email<br></button> </div>
+                                        </div>
+                                    </form>
+                                    <div class="success" style="display:none;">
+                                        <form data-endpoint="verify">
+                                            <p>Check your email, you should get a message with a verification code. Enter it here.</p>
+                                            <div class="row">
+                                                <div class="col-12"> <input type="text" name="code" placeholder="Code from your email" required="required"> </div>
+                                                <div class="col-12"> <button type="submit" class="btn btn--primary">Verify<br></button> </div>
+                                            </div>
+                                        </form>
+                                        <p class="success" style="display:none;">
+                                            Done! You can now open the apps and sign into them there.
+                                        </p>
+                                        <p class="error mt--1" style="display:none;">
+                                            <strong class="color--error">Verification failed. Try registering again.</strong>
+                                        </p>
+                                    </div>
+                                    <p class="error mt--1" style="display:none;">
+                                        <strong class="color--error">Couldn't create account with those credentials.</strong>
+                                        <span class="error-message"></span>
+                                        <span class="color--error">It's possible that you already have an account, or that your passwords don't match, or that your password isn't long or complex enough.</span>
+                                    </p>
+                                    <hr class="short">
+                                    <div> <span class="type--fine-print">By signing up, you agree to the <a href="/terms.html">Terms of Service</a>.</span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="tab__title text-center"> <span class="h5">Remove Data</span> </div>
+                <div class="tab__content">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-md-6 offset-md-3">
+                                <div class="switchable__text">
+                                    <form data-endpoint="burn">
+                                        <p><span><del>Remove</del> <em>Burn</em> all your data from the cloud service. This will destroy all your data forever and delete your account.</span></p>
+                                        <div class="row">
+                                            <div class="col-12"> <input type="email" name="email" placeholder="Email Address"> </div>
+                                            <div class="col-12"> <input type="password" name="password" placeholder="Password"> </div>
+                                            <div class="col-12"> <button type="submit" class="btn btn--primary">Yes, Delete Everything Now<br></button> </div>
+                                            <hr>
+                                            <div class="col-12"> <span class="type--fine-print">Fire is forever. Careful.</div>
+                                        </div>
+                                    </form>
+                                    <div class="success" style="display:none;">
+                                        <strong>Okay, we've destroyed your account and data.</strong> If you are still using the apps then you should remove your account from them if you haven't. If you're not still using the apps, we hope you enjoyed them while you did! All the best!
+                                    </div>
+                                    <p class="error mt--1" style="display:none;">
+                                        <strong class="color--error">Couldn't delete your data.</strong>
+                                        <span class="error-message"></span>
+                                        <span class="color--error">It's possible that you don't have an account, or that your password was wrong.</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="tab__title text-center"> <span class="h5">Reset Password</span> </div>
+                <div class="tab__content">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-md-6 offset-md-3">
+                                <div class="switchable__text">
+                                    <form data-endpoint="resetpassword">
+                                        <p>Reset your password. Enter your email address and get emailed a code to reset your password.</p>
+                                        <div class="row">
+                                            <div class="col-12"> <input type="email" name="email" placeholder="Email Address"> </div>
+                                            <div class="col-12"> <button type="submit" class="btn btn--primary">Send Email<br></button> </div>
+                                        </div>
+                                    </form>
+                                    <div class="success" style="display:none;">
+                                        <form data-endpoint="resetpasswordtwo">
+                                            <p class="mt--1">
+                                                If there was an account with that email, you should receive an email shortly with a reset code in it.
+                                            </p>
+                                            <div class="row">
+                                                <div class="col-12"> <input type="email" name="email" placeholder="Email Address"> </div>
+                                                <div class="col-12"> <input type="code" name="code" placeholder="Code From The Email"> </div>
+                                                <div class="col-12"> <input type="password" name="password" placeholder="New Password"> </div>
+                                                <div class="col-12"> <input type="password" name="password_confirmation" placeholder="New Password Again"> </div>
+                                                <div class="col-12"> <button type="submit" class="btn btn--primary">Save New Password<br></button> </div>
+                                            </div>
+                                        </form>
+                                        <div class="success" style="display:none;">
+                                            Password updated.
+                                        </div>
+                                        <p class="error mt--1" style="display:none;">
+                                            <strong class="color--error">Couldn't update your password.</strong>
+                                            <span class="error-message"></span>
+                                            <span class="color--error">It's possible that you don't have an account, or that the code from your email was incorrect, or that the passwords didn't match, or that you waited too long after getting the email.</span>
+                                        </p>
+
+                                    </div>
+                                    <p class="error mt--1" style="display:none;">
+                                        <strong class="color--error">Couldn't reset your password.</strong>
+                                        <span class="error-message"></span>
+                                        <span class="color--error">It's possible that you don't have an account.</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+</div>
+
