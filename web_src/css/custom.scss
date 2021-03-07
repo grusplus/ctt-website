@@ -88,11 +88,17 @@ body{
             margin-bottom:0;
         }
         .company-name{
+        font-family: 'Zilla Slab', 'Lato';
+        background-color:#334;
+        color:#fff;
+        padding:1px 4px;
         text-transform: capitalize;
         font-size: 22px;
         font-weight: 400;
         vertical-align: middle;
         margin-left: 10px;
+        position:relative;
+        left:-5px;
         }
     }
     .bar{

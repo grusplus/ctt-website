@@ -73,9 +73,8 @@ body {
   line-height: 1.5em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Lato', sans-serif;
 //   font-family: 'Montserrat', sans-serif;
-//   font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Lato', 'Arial', sans-serif;
   color: $default-gray;
   font-weight: 434;
 }
@@ -91,6 +90,7 @@ h6,
 .h4,
 .h5,
 .h6 {
+  font-family: 'Zilla Slab', sans-serif;
   color: #293651;
   font-weight: 800;
   font-variant-ligatures: common-ligatures;
